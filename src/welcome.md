@@ -135,7 +135,15 @@ VuePress is much more than that.
 
 ---
 
-More about me:
+## More about Vuepress
+
+[VueNYC - Intro to VuePress 0.x - Evan You](https://www.youtube.com/watch?v=lIv1ItUzktc)
+
+[Vueconf3 - Intro to VuePress 1.x - ULIVZ](https://ulivz.com/2019/06/09/intro-to-vuepress-1-x/#intro-to-vuepress-1-x)
+
+---
+
+## More about me
 
 https://github.com/xxholly32
 
