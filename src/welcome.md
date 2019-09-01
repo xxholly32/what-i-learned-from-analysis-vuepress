@@ -46,23 +46,27 @@ VuePress is much more than that.
 
 ---
 
-## about manage
-
-- word, excel, powerpoint
-- axure, sketch
-- github, gitlab
-- wiki, yuque
-- svn, git
+**Doc** is code, can do everything !
 
 ---
 
-- a server demo
+- a personal demo
 - [vuepress-plugin-yuque](https://github.com/ulivz/vuepress-plugin-yuque)
-- [css-trick](https://qishaoxuan.github.io/css_tricks/) 评论功能
+- [github-issues](https://qishaoxuan.github.io/css_tricks/)
 
 ---
 
-**static** is good, can do everything !
+## markdown will be a "standard"
+
+(word, excel, powerpoint, axure, sketch, wiki, yuque)
+
+---
+
+**Monorepo** is good !
+
+---
+
+**Each extra dependency doubles the complexity**
 
 ---
 
@@ -72,14 +76,6 @@ VuePress is much more than that.
 - Core Plugins
 - Custom Config
 - LifeCycle
-
----
-
-**Each extra dependency doubles the complexity**
-
----
-
-**monorepo** is good !
 
 ---
 
@@ -95,26 +91,34 @@ VuePress is much more than that.
 
 ---
 
-[plugin Core](https://xxholly32.github.io/vuepress-analysis/plugin/pluginAPI.html#plugin-底层设计)
-
-[markdown-it-chain](https://github.com/ulivz/markdown-it-chain)
-
 **Functional programming** is good !
 
 ---
 
-[Markdown Extensions](https://v1.vuepress.vuejs.org/guide/markdown.html) [Directory Structure](https://v1.vuepress.vuejs.org/guide/directory-structure.html#directory-structure) ...
+[plugin Core](https://xxholly32.github.io/vuepress-analysis/plugin/pluginAPI.html#plugin-底层设计)
 
-**no config** is better config !
+[markdown-it-chain](https://github.com/ulivz/markdown-it-chain)
+
+---
+
+**No config** is better config !
+
+---
+
+[Markdown Extensions](https://v1.vuepress.vuejs.org/guide/markdown.html)
+
+[Directory Structure](https://v1.vuepress.vuejs.org/guide/directory-structure.html#directory-structure)
+
+...
 
 ---
 
 <top>finally</top>
 
-- **static** is good, can do everything !
-- **monorepo** is good !
+- **Doc** is code, can do everything !
+- **Mnorepo** is good !
 - **Functional programming** is good !
-- **no config** is better config !
+- **No config** is better config !
 
 ---
 
