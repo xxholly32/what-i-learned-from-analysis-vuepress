@@ -12,12 +12,6 @@
 
 ---
 
-<top>idea</top>
-
-[what-i-learned-from-maintaining-vue-cli](https://img.w3ctech.com/What-I-Learned-from-Maintaining-Vue-CLI.pdf)
-
----
-
 <top>my analysising repo</top>
 
 ## [vuepress-analysis](https://xxholly32.github.io/vuepress-analysis/)
@@ -50,15 +44,14 @@ VuePress is much more than that.
 
 ---
 
-- a personal demo
-- [vuepress-plugin-yuque](https://github.com/ulivz/vuepress-plugin-yuque)
-- [github-issues](https://qishaoxuan.github.io/css_tricks/)
-
----
-
 ## markdown will be a "standard"
 
 (word, excel, powerpoint, axure, sketch, wiki, yuque)
+
+---
+
+- [vuepress-plugin-yuque](https://github.com/ulivz/vuepress-plugin-yuque)
+- [vuepress-plugin-gitalk-maker](https://github.com/xxholly32/vuepress-plugin-gitalk-maker)
 
 ---
 
@@ -101,7 +94,7 @@ VuePress is much more than that.
 
 ---
 
-**No config** is better config !
+**Convention over configuration** !
 
 ---
 
@@ -118,14 +111,15 @@ VuePress is much more than that.
 - **Doc** is code, can do everything !
 - **Mnorepo** is good !
 - **Functional programming** is good !
-- **No config** is better config !
+- **Convention over configuration** !
 
 ---
 
-<top>what`s next</top>
+<top>finally</top>
 
-- do it !
-- find a idea and push into vuepress
+- [vuepress-community](https://vuepress.github.io/zh/)
+- [vuepress-plugin-cat](https://github.com/QiShaoXuan/vuepress-plugin-cat)
+- [vuepress-theme-default-prefers-color-scheme](https://tolking.github.io/vuepress-theme-default-prefers-color-scheme/)
 
 ---
 
