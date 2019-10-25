@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue-mark-display": "^4.2.0",
     "file-loader": "^4.2.0",
-    "vue": "^2.6.10"
+    "highlight.js": "^9.15.10",
+    "vue": "^2.6.10",
+    "vue-mark-display": "^4.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",

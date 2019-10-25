@@ -1,20 +1,46 @@
 <!-- title: what-i-learned-from-analysis-vuepress-->
 
-## what I learned from
+## What I Learned From Analysising Vuepress
 
-## analysising vuepress
+<comment>https://xxholly32.github.io/what-i-learned-from-analysis-vuepress</comment>
 
 ---
 
 <top>About Me</top>
 
-相霄
+##### 相霄
+
+##### 综合安防 web 前端组长
+
+<comment>👨‍💻 🏸 🎦</comment>
 
 ---
 
-<top>my analysising repo</top>
+介 绍 Vuepress
 
-## [vuepress-analysis](https://xxholly32.github.io/vuepress-analysis/)
+---
+
+![image](https://user-images.githubusercontent.com/6063358/67189103-33ff2200-f420-11e9-97ee-3dafc9aab3cc.png)
+
+<comment>vuejs.org</comment>
+
+---
+
+![image](https://user-images.githubusercontent.com/6063358/67188596-3745de00-f41f-11e9-817a-66467068c54d.png)
+
+<comment>umijs.org</comment>
+
+---
+
+![image](https://user-images.githubusercontent.com/6063358/67188456-f51c9c80-f41e-11e9-9f71-d12c8afd8322.png)
+
+<comment>wubaiqing.github.io/zaobao</comment>
+
+---
+
+![image](https://user-images.githubusercontent.com/6063358/67397521-db748400-f5db-11e9-82b3-ddc951e3da84.png)
+
+<comment>xxholly32.github.io/Blog</comment>
 
 ---
 
@@ -22,110 +48,117 @@ VuePress is much more than that.
 
 —— ULIVZ
 
----
-
-<top>Good practice</top>
-
-[vue](https://cn.vuejs.org/) [vuepress](https://v1.vuepress.vuejs.org/zh/) [vue-i18n](https://kazupon.github.io/vue-i18n/)
-
-[vuesax](https://lusaxweb.github.io/vuesax/)
-
-[umijs](https://umijs.org/) [dvajs](https://dvajs.com/)
-
-[zaobao](https://wubaiqing.github.io/zaobao/) [D2 Daily](https://daily.fairyever.com/) [前端面试与进阶指南](https://www.cxymsg.com/)
-
-[css-trick](https://qishaoxuan.github.io/css_tricks/) [my blog](https://xxholly32.github.io/Blog/)
-
-[more...](https://github.com/ulivz/awesome-vuepress#open-source)
+🤔
 
 ---
 
-**Doc** is code, can do everything !
+Vuepress 帮我们解决了什么问题？
+
+🤔
 
 ---
 
-## markdown will be a "standard"
-
-(word, excel, powerpoint, axure, sketch, wiki, yuque)
-
----
-
-- [vuepress-plugin-yuque](https://github.com/ulivz/vuepress-plugin-yuque)
-- [vuepress-plugin-gitalk-maker](https://github.com/xxholly32/vuepress-plugin-gitalk-maker)
+- 支持 markdown 语法
+- 提升开发效率，标准化框架
+- 部署便捷
+- 约定式路由
+- 统一页面风格
 
 ---
 
-**Monorepo** is good !
+Vuepress 在其他场景的应用 👷‍
 
 ---
 
-**Each extra dependency doubles the complexity**
+数据连接
+
+<div class="flex-row-box">
+    <img src="https://user-images.githubusercontent.com/6063358/67218275-b1df1f80-f458-11e9-9d9d-3706204fd964.png" />
+</div>
+
+<comment>vuepress-plugin-yuque by @ULIVZ</comment>
 
 ---
 
-<top>Plugin System</top>
+评论功能
 
-- Core Design
-- Core Plugins
-- Custom Config
-- LifeCycle
+<div class="flex-row-box">
+  <div class="left">
+    <img src="https://user-images.githubusercontent.com/6063358/67139114-db445380-f27e-11e9-97f2-15da456d3147.png" />
+  </div>
+  <div class="right">
+    <img src="https://user-images.githubusercontent.com/6063358/67139468-23fe0b80-f283-11e9-93b0-72248fa87f5b.png" />
+  </div>
+</div>
 
----
-
-<!-- style: font-size:36px; -->
-
-## [babel told us](https://github.com/babel/babel/blob/master/doc/design/monorepo.md)
-
-- Single lint, build, test and release process.
-- Easy to coordinate changes across modules.
-- Single place to report issues.
-- Easier to setup a development environment.
-- Tests across modules are run together which finds bugs that touch multiple modules easier.
+<comment>vuepress-plugin-gitalk-maker by @xxholly32</comment>
 
 ---
 
-**Functional programming** is good !
+Vuepress 优秀设计理念 🌈
 
 ---
 
-[plugin Core](https://xxholly32.github.io/vuepress-analysis/plugin/pluginAPI.html#plugin-底层设计)
+支持链式调用解析 markdown-it
 
 [markdown-it-chain](https://github.com/ulivz/markdown-it-chain)
 
----
-
-**Convention over configuration** !
+<comment>by ULIVZ</comment>
 
 ---
 
-[Markdown Extensions](https://v1.vuepress.vuejs.org/guide/markdown.html)
-
-[Directory Structure](https://v1.vuepress.vuejs.org/guide/directory-structure.html#directory-structure)
-
-...
-
----
-
-<top>finally</top>
-
-- **Doc** is code, can do everything !
-- **Mnorepo** is good !
-- **Functional programming** is good !
-- **Convention over configuration** !
+```
+const Config = require('markdown-it-chain')
+const config = new Config()
+config.plugin('toc')
+  .use(require('markdown-it-table-of-contents')
+  ...
+  .plugin('anchor')
+  .use(require('markdown-it-anchor')
+  ...
+```
 
 ---
 
-<top>finally</top>
+[Monorepo](https://github.com/babel/babel/blob/master/doc/design/monorepo.md)
 
-- [vuepress-community](https://vuepress.github.io/zh/)
-- [vuepress-plugin-cat](https://github.com/QiShaoXuan/vuepress-plugin-cat)
-- [vuepress-theme-default-prefers-color-scheme](https://tolking.github.io/vuepress-theme-default-prefers-color-scheme/)
+[Convention over configuration](https://v1.vuepress.vuejs.org/miscellaneous/design-concepts.html#convention-over-configuration)
+
+---
+
+社区优秀实践 🛰
+
+---
+
+[vuepress-community](https://vuepress.github.io/zh/)
+
+![](https://user-images.githubusercontent.com/6063358/67254179-4758ce80-f4ae-11e9-96d0-89e963cf1e1f.png)
+
+<comment>by @Shigma @meteorlxy</comment>
+
+---
+
+[vuepress-plugin-cat](https://github.com/QiShaoXuan/vuepress-plugin-cat)
+
+![image](https://user-images.githubusercontent.com/6063358/67254271-cf3ed880-f4ae-11e9-871f-758c8e7f1854.png)
+
+<comment>by @QiShaoXuan</comment>
+
+---
+
+[vuepress-theme-default-prefers-color-scheme](https://tolking.github.io/vuepress-theme-default-prefers-color-scheme/)
+
+![image](https://user-images.githubusercontent.com/6063358/67254309-ef6e9780-f4ae-11e9-8d36-85abfe25a0c4.png)
+
+<comment>by @tolking</comment>
 
 ---
 
 VuePress is much more than that.
 
 —— ULIVZ
+
+🥳
 
 ---
 
@@ -134,6 +167,8 @@ VuePress is much more than that.
 [VueNYC - Intro to VuePress 0.x - Evan You](https://www.youtube.com/watch?v=lIv1ItUzktc)
 
 [Vueconf3 - Intro to VuePress 1.x - ULIVZ](https://ulivz.com/2019/06/09/intro-to-vuepress-1-x/#intro-to-vuepress-1-x)
+
+[Vuepress-analysis](https://xxholly32.github.io/vuepress-analysis/) 😊
 
 ---
 

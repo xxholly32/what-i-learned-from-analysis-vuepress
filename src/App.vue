@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import MarkDisplay from "vue-mark-display";
-import welcome from "./welcome.md";
+import MarkDisplay from 'vue-mark-display';
+import welcome from './welcome.md';
 
 export default {
   components: { MarkDisplay },
@@ -21,21 +21,30 @@ export default {
   methods: {
     setTitle({ title }) {
       document.title = title;
-    }
-  }
+    },
+  },
 };
 </script>
 
 
 <style>
+.slide {
+  background-color: #4d4a4a; /* 浏览器不支持时显示 */
+  background-image: linear-gradient(#000000, #4d4a4a);
+  margin: 0;
+  overflow: hidden;
+  font-family: PingFang SC, STHeiti, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  line-height: 1.25;
+}
 body {
   margin: 0;
   overflow: hidden;
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  background-color: #f5f5f5;
+  color: #fff;
   text-shadow: 0 0 0.25em #ccc;
   line-height: 1.25;
 }
@@ -46,15 +55,13 @@ h4,
 h5,
 h6 {
   margin: 0.25em 0;
+  font-weight: 500;
 }
-
 p {
   margin: 0.25em 0;
-  font-weight: 500;
 }
 li {
   text-align: initial;
-  font-weight: 300;
 }
 blockquote {
   font-size: 0.6em;
@@ -64,8 +71,9 @@ blockquote {
   border-radius: 0.25em;
 }
 pre {
+  font-size: 50px;
   text-align: initial;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #232323;
   border-radius: 0.5vw;
   padding: 0 0.125em;
 }
@@ -75,15 +83,14 @@ img {
 }
 a {
   font-size: 0.75em;
+  font-weight: bold;
   padding: 0.125em 0.25em;
-  background-color: #2b303b;
   color: white;
   border-radius: 0.25em;
   transition: all 0.3s;
-  text-decoration: none;
 }
 a:hover {
-  background-color: #00af83;
+  background-color: blue;
   color: white;
 }
 small {
@@ -133,18 +140,35 @@ top {
   display: block;
   position: absolute;
   top: 5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #000;
+  transform: translate(-50%, 0);
+  color: #fff;
   font-weight: bold;
-  font-size: 6vh;
+  font-size: 8vh;
 }
 comment {
   display: block;
   position: absolute;
   bottom: 5%;
   right: 5%;
-  color: grey;
   font-size: 3.5vh;
+}
+
+.title-img {
+  height: 10rem;
+}
+
+.slide-content {
+  text-align: center;
+}
+
+.flex-row-box {
+  display: flex;
+  flex-direction: row;
+}
+.left,
+.right {
+  width: 50%;
+  margin: 20px;
+  display: flex;
 }
 </style>

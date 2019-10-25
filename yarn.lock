@@ -3933,7 +3933,7 @@ hex-color-regex@^1.1.0:
   resolved "https://registry.npmjs.org/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
-highlight.js@^9.6.0:
+highlight.js@^9.15.10, highlight.js@^9.6.0:
   version "9.15.10"
   resolved "https://registry.npmjs.org/highlight.js/-/highlight.js-9.15.10.tgz#7b18ed75c90348c045eef9ed08ca1319a2219ad2"
   integrity sha512-RoV7OkQm0T3os3Dd2VHLNMoaoDVx77Wygln3n9l5YV172XonWG6rgQD3XnF/BuFFZw9A0TJgmMSO8FEWQgvcXw==
@@ -4948,10 +4948,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^0.6.1:
-  version "0.6.3"
-  resolved "https://registry.npmjs.org/marked/-/marked-0.6.3.tgz#79babad78af638ba4d522a9e715cdfdd2429e946"
-  integrity sha512-Fqa7eq+UaxfMriqzYLayfqAE40WN03jf+zHjT18/uXNuzjq3TY0XTbrAoPeqSJrAmPz11VuUA+kBPYOhHt9oOQ==
+marked@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.npmjs.org/marked/-/marked-0.7.0.tgz#b64201f051d271b1edc10a04d1ae9b74bb8e5c0e"
+  integrity sha512-c+yYdCZJQrsRjTPhUx7VKkApw9bwDkNbHUKo1ovgcfDjb2kc8rLuRbIFyXL5WOEUwzSSKo3IXpph2K6DqB/KZg==
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -7986,11 +7986,11 @@ vue-loader@^15.7.0:
     vue-style-loader "^4.1.0"
 
 vue-mark-display@^4.2.0:
-  version "0.1.3"
-  resolved "https://registry.npmjs.org/vue-mark-display/-/vue-mark-display-0.1.3.tgz#529b2072fc78c39dee4fe9dd6977a37b061d9b76"
-  integrity sha512-Emf7Lp35mtc/7EgfmWMoGOM2P2zZibLB15SaqzAt0stNXxqZM6J+h8hAYUOwXAlbWwt2LW70mXaU7rYvdVK58w==
+  version "0.2.1"
+  resolved "https://registry.npmjs.org/vue-mark-display/-/vue-mark-display-0.2.1.tgz#8b095880a5f406ee90188149daf43d35a0e9736d"
+  integrity sha512-a+zHvY6aCqaCuiNb0Gd1FmyJJ9pHwTeGyBoUUuABdIAtAGBSOgBFKX2TUdnQ6rnochmiLH4nbnRwNcsxovicMw==
   dependencies:
-    marked "^0.6.1"
+    marked "^0.7.0"
 
 vue-style-loader@^4.1.0:
   version "4.1.2"
